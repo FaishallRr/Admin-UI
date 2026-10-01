@@ -8,10 +8,10 @@ function App() {
     <>
       <div className="min-h-screen flex flex-col items-center justify-center">
         <div className="flex justify-center gap-8 mb-7">
-          <a href="https://vite.org" target="_blank" rel="noopener noreferrer">
+          <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
            <img className='h-24 w-24' src="/vite.svg" alt="Vite Logo" />
           </a>
-          <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          <a href="https://reactjs.dev" target="_blank" rel="noopener noreferrer">
            <img className='h-24 w-24 animate-spin' src="../src/assets/react.svg" alt="React Logo" style={{ animationDuration: '10s' }} />
           </a>
         </div>
