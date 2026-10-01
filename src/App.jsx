@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -9,10 +11,10 @@ function App() {
       <div className="min-h-screen flex flex-col items-center justify-center">
         <div className="flex justify-center gap-8 mb-7">
           <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
-           <img className='h-24 w-24' src="/vite.svg" alt="Vite Logo" />
+            <img className='h-24 w-24' src={viteLogo} alt="Vite Logo" />
           </a>
-          <a href="https://reactjs.dev" target="_blank" rel="noopener noreferrer">
-           <img className='h-24 w-24 animate-spin' src="../src/assets/react.svg" alt="React Logo" style={{ animationDuration: '10s' }} />
+          <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
+           <img className='h-24 w-24 animate-spin' src={reactLogo} alt="React Logo" style={{ animationDuration: '10s' }} />
           </a>
         </div>
          <h1 className="text-6xl font-bold text-center text-white mt-5">Vite + React</h1>
