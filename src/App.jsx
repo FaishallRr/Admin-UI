@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,24 +6,24 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col items-center justify-center">
-        <div className="flex justify-center gap-8 mb-7">
-          <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
-            <img className='h-24 w-24' src={viteLogo} alt="Vite Logo" />
-          </a>
-          <a href="https://react.dev" target="_blank" rel="noopener noreferrer">
-           <img className='h-24 w-24 animate-spin' src={reactLogo} alt="React Logo" style={{ animationDuration: '10s' }} />
-          </a>
+      <div className='bg-gray-100 min-h-screen p-6'>
+        {/* card begin */}
+        <div className="flex flex-col justify-between bg-white p-6 min-h-60 rounded-lg shadow">
+          <div className="flex items-center justify-between">
+            <h2 className='text-black text-lg font-semibold'>Product</h2>
+            <span className='text-green-500'>Active</span>
+          </div>
+
+          <p className="text-gray-800">Product description goes here.</p>
+
+          <div className="flex justify-end gap-2">
+            <button className="rounded bg-gray-200 px-4 py-2 text-black">Cancel</button>
+            <button className="rounded bg-blue-500 px-4 py-2 text-white">
+              Buy
+            </button>
+          </div>
         </div>
-         <h1 className="text-6xl font-bold text-center text-white mt-5">Vite + React</h1>
-        <div className="flex flex-col items-center">
-         <h3 className="text-lg font-medium text-center text-black mt-15 mb-0.5">Faishal Rasyid Rusianto</h3>
-         <button className="bg-black text-lg text-white py-2 px-5 rounded-lg" onClick={() => setCount(count + 1)}>count is {count}</button>
-        </div>
-        <div className="flex flex-col items-center mt-7 gap-9">
-          <h3 className="text-lg text-neutral-3 00">Edit src/App and save to tes HMR</h3>
-          <h3 className="text-lg text-neutral-500">Click on the Vite And React logos to learn more</h3>
-        </div>
+        {/* card end */}
       </div>
     </>
   )
