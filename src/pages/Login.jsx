@@ -28,9 +28,14 @@ function Login() {
               />
             </div>
             <div className="mb-6">
-              <label htmlFor="password" className="block text-sm mb-2">
-                Password
-              </label>
+              <div className="flex justify-between items-center mb-3">
+                <label htmlFor="password" className="block text-sm">
+                  Password
+                </label>
+                <Link to="/forgot-password" className="text-primary text-xs">
+                  Forgot password?
+                </Link>
+              </div>
               <div className="relative">
                 <input
                   type="password"

@@ -13,14 +13,14 @@ function Signup() {
         </div>
         {/* logo end */}
         {/* Header start */}
-        <div className="mt-8 text-center">
-          <h2 className="text-2xl font-bold text-defaultBlack">
+        <div className="mt-6 text-center">
+          <h2 className="text-xl font-bold text-defaultBlack">
             Create an account
           </h2>
         </div>
         {/* Header end */}
         {/* form start */}
-        <div className="mt-10">
+        <div className="mt-8">
           <form action="">
             <div className="mb-6">
               <label htmlFor="email" className="block text-sm mb-2">
