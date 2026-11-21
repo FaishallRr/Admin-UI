@@ -96,7 +96,7 @@ function FormSignUp() {
       {/* link start */}
       <div className="flex justify-center items-center gap-1 text-gray-02 text-sm">
         <label htmlFor="text">Already have an account?</label>
-        <Link to="/" className="text-primary text-sm font-bold">
+        <Link to="/login" className="text-primary text-sm font-bold">
           Sign in here
         </Link>
       </div>

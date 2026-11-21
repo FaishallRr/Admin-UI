@@ -75,7 +75,7 @@ function FormSignIn() {
         </Button>
       </div>
       <div className="flex justify-center">
-        <Link to="/SignUp" className="text-primary text-sm font-bold">
+        <Link to="/register" className="text-primary text-sm font-bold">
           Create an account
         </Link>
       </div>
