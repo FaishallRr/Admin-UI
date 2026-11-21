@@ -1,13 +1,15 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import "./App.css";
 
-import PageLogin from "./latihan/pages/PageLogin";
-import PageRegister from "./latihan/pages/PageRegister";
+import App from "./App";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <PageRegister />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </StrictMode>,
 );
